@@ -42,7 +42,7 @@ public class MainApp {
       }
 
       System.out.println("--------------------------------------------------");
-      User userCar = userService.getUserByCar("Haval", 4);
+      User userCar = userService.getUserByCar("Reno", 3);
       System.out.println("Id = " + userCar.getId());
       System.out.println("First Name = " + userCar.getFirstName());
       System.out.println("Last Name = " + userCar.getLastName());
